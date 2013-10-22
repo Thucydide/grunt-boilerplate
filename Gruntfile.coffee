@@ -15,7 +15,7 @@ module.exports = (grunt)->
       options: 
         npm: false
         github:
-          repo: 'http://222.200.185.68/gitlab/at-plus-front-end/facility-boilerplate.git'
+          repo: 'Thucydide/grunt-boilerplate'
           usernameVar: 'GITHUB_USERNAME'
           passwordVar: 'GITHUB_PASSWORD'
 
