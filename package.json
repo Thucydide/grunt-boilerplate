@@ -1,6 +1,6 @@
 {
   "name": "facility-boilerplate",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Develop a facility project's boilerplate",
   "main": "index.js",
   "dependencies": {},
