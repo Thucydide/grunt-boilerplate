@@ -1,0 +1,149 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'd:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'd:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'publish' ]
+2 info using npm@1.3.11
+3 info using node@v0.10.20
+4 verbose node symlink d:\Program Files\nodejs\\node.exe
+5 verbose publish [ '.' ]
+6 verbose cache add [ '.', null ]
+7 verbose cache add name=undefined spec="." args=[".",null]
+8 verbose parsed url { protocol: null,
+8 verbose parsed url   slashes: null,
+8 verbose parsed url   auth: null,
+8 verbose parsed url   host: null,
+8 verbose parsed url   port: null,
+8 verbose parsed url   hostname: null,
+8 verbose parsed url   hash: null,
+8 verbose parsed url   search: null,
+8 verbose parsed url   query: null,
+8 verbose parsed url   pathname: '.',
+8 verbose parsed url   path: '.',
+8 verbose parsed url   href: '.' }
+9 silly lockFile 3a52ce78- .
+10 verbose lock . C:\Users\Administrator\AppData\Roaming\npm-cache\3a52ce78-.lock
+11 verbose tar pack [ 'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-7876-3B4d_Syd\\1382411525698-0.8109924553427845\\tmp.tgz',
+11 verbose tar pack   '.' ]
+12 verbose tarball C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+13 verbose folder .
+14 silly lockFile 1f1177db-tar tar://.
+15 verbose lock tar://. C:\Users\Administrator\AppData\Roaming\npm-cache\1f1177db-tar.lock
+16 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+17 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\f2854920-25698-0-8109924553427845-tmp-tgz.lock
+18 silly lockFile 1f1177db-tar tar://.
+19 silly lockFile 1f1177db-tar tar://.
+20 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+21 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+22 verbose tar unpack C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+23 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+24 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package C:\Users\Administrator\AppData\Roaming\npm-cache\6d1a9886-25698-0-8109924553427845-package.lock
+25 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+26 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\f2854920-25698-0-8109924553427845-tmp-tgz.lock
+27 silly gunzTarPerm modes [ '755', '644' ]
+28 silly gunzTarPerm extractEntry package.json
+29 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+30 silly gunzTarPerm extractEntry .npmignore
+31 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+32 silly gunzTarPerm extractEntry README.md
+33 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+34 silly gunzTarPerm extractEntry dist/module1.js
+35 silly gunzTarPerm modified mode [ 'dist/module1.js', 438, 420 ]
+36 silly gunzTarPerm extractEntry dist/sample-module.js
+37 silly gunzTarPerm modified mode [ 'dist/sample-module.js', 438, 420 ]
+38 silly gunzTarPerm extractEntry Gruntfile.coffee
+39 silly gunzTarPerm modified mode [ 'Gruntfile.coffee', 438, 420 ]
+40 silly gunzTarPerm extractEntry lib/jquery.js
+41 silly gunzTarPerm modified mode [ 'lib/jquery.js', 438, 420 ]
+42 silly gunzTarPerm extractEntry src/module1.ls
+43 silly gunzTarPerm modified mode [ 'src/module1.ls', 438, 420 ]
+44 silly gunzTarPerm extractEntry src/sample-module.ls
+45 silly gunzTarPerm modified mode [ 'src/sample-module.ls', 438, 420 ]
+46 silly gunzTarPerm extractEntry test/test.ls
+47 silly gunzTarPerm modified mode [ 'test/test.ls', 438, 420 ]
+48 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+49 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+50 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+51 silly lockFile f2854920-25698-0-8109924553427845-tmp-tgz tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\tmp.tgz
+52 verbose tar pack [ 'C:\\Users\\Administrator\\AppData\\Roaming\\npm-cache\\facility-boilerplate\\0.0.1\\package.tgz',
+52 verbose tar pack   'C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\npm-7876-3B4d_Syd\\1382411525698-0.8109924553427845\\package' ]
+53 verbose tarball C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+54 verbose folder C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+55 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+56 verbose lock tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package C:\Users\Administrator\AppData\Roaming\npm-cache\6d1a9886-25698-0-8109924553427845-package.lock
+57 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+58 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\2aaaa566-ty-boilerplate-0-0-1-package-tgz.lock
+59 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+60 silly lockFile 6d1a9886-25698-0-8109924553427845-package tar://C:\Users\ADMINI~1\AppData\Local\Temp\npm-7876-3B4d_Syd\1382411525698-0.8109924553427845\package
+61 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+62 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+63 silly lockFile f9df7779-cility-boilerplate-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+64 verbose lock C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package C:\Users\Administrator\AppData\Roaming\npm-cache\f9df7779-cility-boilerplate-0-0-1-package.lock
+65 silly lockFile f9df7779-cility-boilerplate-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+66 silly lockFile f9df7779-cility-boilerplate-0-0-1-package C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+67 verbose tar unpack C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+68 silly lockFile 4edcdef8-cility-boilerplate-0-0-1-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+69 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package C:\Users\Administrator\AppData\Roaming\npm-cache\4edcdef8-cility-boilerplate-0-0-1-package.lock
+70 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+71 verbose lock tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz C:\Users\Administrator\AppData\Roaming\npm-cache\2aaaa566-ty-boilerplate-0-0-1-package-tgz.lock
+72 silly gunzTarPerm modes [ '755', '644' ]
+73 silly gunzTarPerm extractEntry package.json
+74 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+75 silly gunzTarPerm extractEntry .npmignore
+76 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+77 silly gunzTarPerm extractEntry README.md
+78 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+79 silly gunzTarPerm extractEntry dist/module1.js
+80 silly gunzTarPerm modified mode [ 'dist/module1.js', 438, 420 ]
+81 silly gunzTarPerm extractEntry dist/sample-module.js
+82 silly gunzTarPerm modified mode [ 'dist/sample-module.js', 438, 420 ]
+83 silly gunzTarPerm extractEntry Gruntfile.coffee
+84 silly gunzTarPerm modified mode [ 'Gruntfile.coffee', 438, 420 ]
+85 silly gunzTarPerm extractEntry lib/jquery.js
+86 silly gunzTarPerm modified mode [ 'lib/jquery.js', 438, 420 ]
+87 silly gunzTarPerm extractEntry src/module1.ls
+88 silly gunzTarPerm modified mode [ 'src/module1.ls', 438, 420 ]
+89 silly gunzTarPerm extractEntry src/sample-module.ls
+90 silly gunzTarPerm modified mode [ 'src/sample-module.ls', 438, 420 ]
+91 silly gunzTarPerm extractEntry test/test.ls
+92 silly gunzTarPerm modified mode [ 'test/test.ls', 438, 420 ]
+93 silly lockFile 4edcdef8-cility-boilerplate-0-0-1-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+94 silly lockFile 4edcdef8-cility-boilerplate-0-0-1-package tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package
+95 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+96 silly lockFile 2aaaa566-ty-boilerplate-0-0-1-package-tgz tar://C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+97 verbose chmod C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz 644
+98 silly chown skipping for windows C:\Users\Administrator\AppData\Roaming\npm-cache\facility-boilerplate\0.0.1\package.tgz
+99 silly lockFile 3a52ce78- .
+100 silly lockFile 3a52ce78- .
+101 silly publish { name: 'facility-boilerplate',
+101 silly publish   version: '0.0.1',
+101 silly publish   description: 'Develop a facility project\'s boilerplate',
+101 silly publish   main: 'index.js',
+101 silly publish   dependencies: {},
+101 silly publish   devDependencies:
+101 silly publish    { 'grunt-livescript': '~0.5.0',
+101 silly publish      grunt: '~0.4.1',
+101 silly publish      'grunt-release': '~0.6.0',
+101 silly publish      'grunt-contrib-watch': '~0.5.3',
+101 silly publish      'grunt-contrib-clean': '~0.5.0',
+101 silly publish      'grunt-contrib-coffee': '~0.7.0',
+101 silly publish      'grunt-contrib-jasmine': '~0.5.1',
+101 silly publish      'grunt-contrib-connect': '~0.5.0',
+101 silly publish      'grunt-template-jasmine-requirejs': '~0.1.7' },
+101 silly publish   scripts: { test: 'grunt test' },
+101 silly publish   keywords: [ 'facility' ],
+101 silly publish   author: { name: 'Dai Jiahua' },
+101 silly publish   license: 'MIT',
+101 silly publish   readme: '@+ 组件开发工程模板\r\n====================\r\n详细使用方式以及原理，请移步：http://my.ss.sysu.edu.cn/wiki/pages/viewpage.action?pageId=231276557',
+101 silly publish   readmeFilename: 'README.md',
+101 silly publish   _id: 'facility-boilerplate@0.0.1',
+101 silly publish   dist: { shasum: '34c586fadbc5b685c0a63dca607ba8b3d5443e2c' },
+101 silly publish   _from: '.' }
+102 error need auth auth and email required for publishing
+102 error need auth You need to authorize this machine using `npm adduser`
+103 error System Windows_NT 6.1.7601
+104 error command "d:\\Program Files\\nodejs\\\\node.exe" "d:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "publish"
+105 error cwd e:\git\facility-boilerplate
+106 error node -v v0.10.20
+107 error npm -v 1.3.11
+108 error code ENEEDAUTH
+109 verbose exit [ 1, true ]
