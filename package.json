@@ -1,8 +1,11 @@
 {
   "name": "facility-boilerplate",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "Develop a facility project's boilerplate",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Thucydide/grunt-boilerplate.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "grunt-livescript": "~0.5.0",
